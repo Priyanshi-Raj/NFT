@@ -22,6 +22,8 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+   
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -156,7 +158,11 @@
     </div>
     <div class="price-index text-light">
       <h1 style="font-weight: 700;" class=" mt-5 bolder">Price Index</h1>
-      <img src="./images/Group 22.png" alt="">
+      
+      <div class="chart d-flex align-item-center justify-content-center" style="background-color: transparent;">
+        <canvas id="myChart"></canvas>
+      </div>
+      
     </div>
 
     <footer id="landing-foot" class="footer 
@@ -167,7 +173,8 @@
         <span style="font-weight: 600"> team google_was_my_idea </span>
       </p>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
     <script src="./js/trendingArt.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

@@ -116,3 +116,8 @@ button {
   left: 1rem;
   /* width: 8px; */
 }
+.chart{
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+}

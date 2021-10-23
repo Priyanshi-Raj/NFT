@@ -6,8 +6,21 @@
 }
 body {
   /* background: url() no-repeat center center/cover; */
-  background-color: rgb(104, 77, 167);
+  /* background-color: rgb(104, 77, 167); */
   min-height: 100vh;
+  /* background-image: url('../images/Rectangle10.png') no-repeat center */
+  /* center/cover; */
+  /* min-height: 100vh; */
+  color: white;
+  overflow-x: hidden;
+}
+/* 9562FF */
+.bg-img {
+  /* min-height: 100vh; */
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  top: 0;
 }
 .makeBold {
   font-weight: 700;
@@ -36,35 +49,70 @@ button {
   font-weight: 600;
 }
 #landing-foot {
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  width: 100vw;
+  /* width: 100vw; */
 }
 #landing-nav {
   position: relative;
   z-index: 2;
 }
-.top-content{
+.top-content {
   margin-top: 4rem;
   display: flex;
   justify-content: space-around;
-  
 }
 
-.container{
+.container {
   position: relative;
   top: 0;
-  left: 0;}
-.child1{
-  position: absolute;
-left: 65%;
-  bottom: 15%;
-
+  left: 0;
 }
-.child2{
+.child1 {
+  position: absolute;
+  left: 63%;
+  bottom: 15%;
+}
+.child2 {
   position: absolute;
 
   top: 5%;
-  right: 80%;
-
+  right: 77%;
+}
+.buyer {
+  margin: 5%;
+}
+.buyer-container {
+  display: flex;
+  justify-content: space-around;
+}
+.box1 {
+  background-color: #5c45ab;
+  margin-top: 3%;
+  width: 30%;
+}
+.box2 {
+  background-color: #5c45ab;
+  margin-top: 3%;
+}
+.box {
+  border-radius: 25px 7px 25px 7px;
+  padding: 1rem;
+}
+.card-style {
+  background: #5c45ab !important;
+  color: white;
+}
+.makeBold {
+  font-size: 1.5rem;
+}
+.bolder {
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin: 2rem 0;
+}
+.comma {
+  position: relative;
+  left: 1rem;
+  /* width: 8px; */
 }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Art</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav id="landing-nav" class="mx-5 navbar navbar-light">
+      <div class="container-fluid mt-3">
+        <div class="dropdown dropdown-mobile">
+          <button
+            class="btn btn-secondary"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Service</a>
+            <a class="dropdown-item" href="#">Gallery</a>
+            <a class="dropdown-item" href="#">Creator</a>
+            <a class="dropdown-item" href="#">Marketplace</a>
+            <a class="dropdown-item" href="#">Pricing</a>
+          </div>
+        </div>
+        <a href="./homepage.html" class="navbar-brand">
+          <h3>NFT<span class="font-weight-bolder makeBold">Art</span></h3>
+        </a>
+        <ul class="d-flex">
+          <li class="nav-item">
+            <a class="nav-link rounded-pill bg-round" href="./alumni.html"
+              >Service</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill bg-round" href="./event.html"
+              >Gallery</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active rounded-pill" href="./ragging.html"
+              >Creator</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="./summary.html"
+              >Marketplace</a
+            >
+          </li>
+
+          <li class="nav-item rounded-pill">
+            <a class="nav-link" href="./resources.html">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="trending-cards mx-auto w-100 d-flex justify-content-center">
+      <div class="my-3" id="resourceContainer">
+        <h2 class="mx-3">Trending Art</h2>
+        <!-- Sidebar Ends -->
+        <!-- Cards-section starts -->
+        <div class="card-section">
+          <div id="card-add" class="d-flex flex-wrap"></div>
+        </div>
+        <!-- Cards-section ends -->
+      </div>
+    </div>
+
+    <script src="./js/trendingArt.js"></script>
+  </body>
+</html>

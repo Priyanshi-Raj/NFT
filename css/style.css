@@ -5,7 +5,8 @@
   text-decoration: none;
 }
 body {
-  background: url() no-repeat center center/cover;
+  /* background: url() no-repeat center center/cover; */
+  background-color: rgb(104, 77, 167);
   min-height: 100vh;
 }
 .makeBold {
@@ -42,4 +43,28 @@ button {
 #landing-nav {
   position: relative;
   z-index: 2;
+}
+.top-content{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.container{
+  position: relative;
+  top: 0;
+  left: 0;}
+.child1{
+  position: absolute;
+left: 65%;
+  bottom: 15%;
+
+}
+.child2{
+  position: absolute;
+
+  top: 5%;
+  right: 80%;
+
 }

@@ -38,6 +38,7 @@ We created this CollegeEase Web App which not only help college students with ed
 ## 🔆 Tech Stack
 The project is created using
 -  JavaScript
+-   Chart.js
 -  HTML
 -  CSS
 -  Figma

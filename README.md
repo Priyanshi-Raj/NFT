@@ -1,4 +1,3 @@
-# NFT
 # NFT Art
 ### 🧐 Hack This Fall 2.0
 
@@ -50,7 +49,7 @@ They can even connect with their alumni with right guidance.
 
 ## 🚀 Future Plans
 - Integrate Smart Contract
-- Add more domains to own
+- Add more domains for ownership
 - Platform to create Digital Art 
 
 

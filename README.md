@@ -1,7 +1,6 @@
 # NFT
 # NFT Art
-# 📖 CollegeEase
-### 🧐 HackX Education
+### 🧐 Hack This Fall 2.0
 
 
 
@@ -12,12 +11,9 @@
 
 ![Language](https://img.shields.io/github/languages/top/Priyanshi-Raj/doc24-7)
 ![Size](https://img.shields.io/github/repo-size/Priyanshi-Raj/doc24-7)
-## 💬 CollegeEase : Education With Fun
+## 💬 NFT Art : Own the best Digital Art
 
-CollegeEase 👨‍👨 to manage college life with education as well as fun.
-
-
-# This project is a part of HackX Hackathon by Scalar.
+# This project is a part of Hack This Fall 2.0 Hackathon.
   Hackathon 
 
 
@@ -33,12 +29,12 @@ CollegeEase 👨‍👨 to manage college life with education as well as fun.
  
 
 ## 👩‍ Overview
-We created this CollegeEase Web App which not only help college students with eductional outcome but also help them to overcome with various problems that they face during college life like ragging , food problems etc .
+Smart Contract with NFTs has potential to revolutionize trade with the secure blockchain technology that it uses for ownership. We provide a platform to explore Digital Art and provide services to facilitate ownership.
     
 ## 🔆 Tech Stack
 The project is created using
 -  JavaScript
--   Chart.js
+-  Chart.js
 -  HTML
 -  CSS
 -  Figma
@@ -53,12 +49,10 @@ They can even connect with their alumni with right guidance.
 
 
 ## 🚀 Future Plans
-- Feature for Timetable management, to keep students updated with their classes, change in schedule.
-- Personalised app
-- AI assistant 
-- Feature to store academic record and progress
- 
+- Integrate Smart Contract
+- Add more domains to own
+- Platform to create Digital Art 
 
 
-## Made With ❤️ by our google_was_my_idea Team.
+## Made With ❤️ by team google_was_my_idea .
 

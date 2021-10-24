@@ -50,7 +50,7 @@ They can even connect with their alumni with right guidance.
 ## 🚀 Future Plans
 - Integrate Smart Contract
 - Add more domains for ownership
-- Platform to create Digital Art 
+- A Platform to create Digital Art 
 
 
 ## Made With ❤️ by team google_was_my_idea .
